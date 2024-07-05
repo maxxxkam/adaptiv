@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 25px;
+}
+body{
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(106,106,105,1) 0%, rgba(1,1,1,1) 100%);
+
+}
+.cards{
+  display: flex;
+  gap: 30px;
+  margin-top: 150px;
+@media(max-width:1240px){
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+}
+.card{
+  max-width: 400px;
+  height: 450px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: black;
+  -webkit-box-shadow: 15px 15px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 15px 15px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 15px 15px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.card-img{
+width: 100%;
+border-radius: 20px 20px 0 0;
+}
+.text{
+ margin: 15px;
+ color: white;
+ p{
+  margin-top: 15px;
+ }
+}
+.card1{
+ 
+}
+.peshka1{
+  color: crimson;
+}
+.peshka2{
+  color: crimson;
+}
+.peshka3{
+  color: limegreen;
+}
+.grey{
+  opacity: 50%;
+}
